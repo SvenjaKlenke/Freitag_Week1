@@ -8,7 +8,7 @@ Verbiete "schlechte" Passwörter wie "passwort" oder "123456"
  */
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println(allesPruefen("SvenjaKl123"));
     }
 
     public static boolean laengePruefen(String a) {
